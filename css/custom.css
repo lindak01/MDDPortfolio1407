@@ -194,24 +194,24 @@ h3.sectionTitle {
 }
 
 /**********************************************************************/
-/************************ PRODUCT ************************************/
+/************************ ABOUT ME ************************************/
 /********************************************************************/
 
-#productWrap {
+#aboutMe {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-#productWrap .productFeatures {
+#aboutMe .productFeatures {
 	margin-top: 20px;
 }
-#productWrap .productFeatures h3 {
+#aboutMe .productFeatures h3 {
 	margin-top: 0;
 	color: #428BCA;
 }
-#productWrap .productFeatures p {
+#aboutMe .productFeatures p {
 	margin-bottom: 50px;
 }
-#productWrap .productFeatures .icon {
+#aboutMe .productFeatures .icon {
 	text-align: right;
 	color: #428BCA;
 	font-size: 20px;
@@ -337,7 +337,7 @@ footer .social a .fa-inverse {
 	.jumbotron .mobile {
 		margin-left: -48px;
 	}
-	#productWrap .imgWrap img {
+	#aboutMe .imgWrap img {
 		margin: 0 auto 60px;
 	}
 	#contactWrap .blurb {
@@ -362,7 +362,7 @@ footer .social a .fa-inverse {
 		padding-right: 0;
 	}
 	.jumbotron h1 {
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.jumbotron h2 {
 		font-size: 22px;
@@ -371,10 +371,53 @@ footer .social a .fa-inverse {
 	#projectsWrap .feature {
 		margin-bottom: 40px;
 	}
-	#productWrap .productFeatures .icon {
-		font-size: 14px;
+	#aboutMe .productFeatures .icon {
+		font-size: 12px;
 	}
 	#pricingWrap .priceTable {
 		margin-bottom: 60px;
 	}
+}
+@media (max-width: 676px) {
+    .navbar-collapse {
+		float: none;
+	}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		float: left;
+		margin: 15px 0 15px 15px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 14px;
+		padding: 12px 15px;
+	}
+	.jumbotron {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.jumbotron h1 {
+		font-size: 28px;
+	}
+	.jumbotron h2 {
+		font-size: 18px;
+	}
+	
+	#projectsWrap .feature {
+		margin-bottom: 40px;
+	}
+	#aboutMe h2{
+		font-size: 26px;
+	}
+	#aboutMe h3{
+		font-size: 18px;
+	}
+	#contactWrap h2{
+		font-size: 26px;
+	}
+	#contactWrap .blurb{
+		font-size: 18px;
+	}
+	#pricingWrap .priceTable {
+		margin-bottom: 60px;
+	}
+    
 }
